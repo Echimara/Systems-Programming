@@ -5,9 +5,7 @@ using namespace std;
 #include <regex>
 
 // Code Description: This program uses regex and concatentation to transform normal words into pig latin
-// Name: Chimara Okeke
-// Course Section: CSCE 2110.001
-// Date: 4/8/2023
+// Author: Chimara Okeke
 
 // Function prototype
 string pigLatin(string word);
