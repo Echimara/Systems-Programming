@@ -1,9 +1,5 @@
 #!/bin/bash
 #Name: Chimara Okeke
-#EUID: ceo0079
-#Course: CSCE 3600.002
-#Recitation Section: 205
-#Due date: 3/3/2023 @ 11:59PM
 #This bash script monitors and reports who logs in to and out of whichever
 #linux machine the script is run on. Reports are printed every 10 seconds (if any)
 #along with the date and number of logged-in users. A custom handler is present
