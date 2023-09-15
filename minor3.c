@@ -1,14 +1,12 @@
 // Language: C
 // Name: Chimara Okeke
-// Due Date: 4/7/2023
-// Assignment: Minor 3
-// Program Description:"minor3.c"is a program that reads user input keys and echoes them back to the screen using the producer.
+// Program Description: "minor3.c" is a program that reads user input keys and echoes them back to the screen using the producer.
 // The previous program has been refactored to reduce CPU utilization. Spurious wakeup and pthread condition variables are used
 // to achieve this result.
 // HOW TO RUN: 
 // 1) download "minor3.c"
 // 2) Launch a terminal environment
-// 3) comple with: gcc minor3.c -o minor3 -lpthread
+// 3) compile with: gcc minor3.c -o minor3 -lpthread
 // 4) execute with: ./minor3.c
 
 #include <stdio.h>
