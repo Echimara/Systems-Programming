@@ -5,15 +5,19 @@
 #Recitation Section: 205
 #Due date: 3/3/2023 @ 11:59PM
 #This bash script monitors and reports who logs in to and out of whichever
-#linux machine the script is ran on. Reports are printed every 10 seconds (if any)
-#along with the date and number of logged in users. A custom hangler is present
+#linux machine the script is run on. Reports are printed every 10 seconds (if any)
+#along with the date and number of logged-in users. A custom handler is present
 #to trap the SIGINT or ctrl+C shortcut once before terminating the script.
+
+# HOW TO RUN: Into a terminal environment, type:
+# 1) chmod +x minor2.sh   # to make sure the file is executable 
+# 2) ./minor2.sh          # to compile
 
 #Definition of function, custom_handler.
 #It traps any first input of ctrl+C i.e. SIGINT
 custom_handler()
 {
-echo "(SIGINT) ignored. enter ^C 1 more time to terminate program."
+echo "(SIGINT) ignored. enter ^C 1 more time to terminate the program."
 trap SIGINT
 }
 #A set-up of the previously defined signal handler
@@ -57,5 +61,5 @@ echo "$(date +"%a %b %d %H:%M:%S %Z %Y")) # of users: $(who | wc -l)"
 #Allows the loop to repeat every 10 seconds
 sleep 10
 #Output redirection similar to piping
-done < <(last -F)
+done <<(last -F)
 done
