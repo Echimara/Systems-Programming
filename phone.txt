@@ -1,0 +1,9 @@
+# Why does this file exist? It's to be used with the "phone_encrypter.sed" file
+# Kindly visit the "phone_encrypter.sed" file for more info
+(866) 879-7647
+(888) 474-7424
+(371) 670-6006
+(866) 266-5588
+(844) 415-3955
+(800) 237-2747
+(800) 667-2747
