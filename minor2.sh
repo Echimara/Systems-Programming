@@ -8,7 +8,7 @@
 # HOW TO RUN: Into a terminal environment, type:
 # 1) chmod +x minor2.sh   --> to make sure the file is executable 
 # 2) ./minor2.sh          --> to compile
-
+# 3) ctrl+C twice         --> to terminate
 
 # Definition of function, custom_handler.
 # It traps the first input of ctrl+C i.e., SIGINT
