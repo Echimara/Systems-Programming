@@ -1,5 +1,4 @@
 // Name: Chimara Okeke
-// Course: CSCE 3600
 // Course Description: 
 // This C program showcases mutex lock behavior by converting characters in a user-input sentence to uppercase using multi-threading.
 // It initializes a mutex, creates threads for each character, and ensures thread-safe access to the shared 'sentence' array. 
