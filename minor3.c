@@ -1,7 +1,5 @@
 // Name: Chimara Okeke
-// EUID: ceo0079
 // Due Date: 4/7/2023
-// Couse Section: 3600.002
 // Assignment: Minor 3
 // Program Description: "minor3.c" is a program that reads user input keys and echoes them back to the screen using the producer.
 // The previous program has been refactored to reduce CPU utilization. Spurious wakeup and pthread condition variables are used to achieve this result.
