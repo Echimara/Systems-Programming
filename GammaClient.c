@@ -1,6 +1,5 @@
 // compile: gcc GammaClient.c -o GammaClient
 // usage  : ./GammaClient port
-// Name: Chimara Okeke
 // Course Description: This C code creates a client program that connects to a server via sockets.
 // It reads and prints data received from the server at the specified IP address and port number.
 
