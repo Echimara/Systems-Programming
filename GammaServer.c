@@ -1,6 +1,5 @@
 // compile: gcc GammaServer.c -o GammaServer
 // usage  : ./GammaServer port
-// Name: Chimara Okeke
 // Course Description: This C program sets up a basic TCP server that listens on a specified port,
 // accepts client connections, and sends a "Server Message: SUCCESS" response.
 
