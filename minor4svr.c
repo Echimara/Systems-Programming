@@ -1,5 +1,3 @@
-// Name: Chimara Okeke
-// Assignment: Minor 4
 // Program Description: "minor4svr.c" accepts one argument (a valid port no.),
 // listens for PING messages from clients and sends back a PONG msg
 // necessary header files for sockets, system calls, and flags (MSG_WAITALL & MSG_CONFIRM)
