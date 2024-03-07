@@ -1,5 +1,3 @@
-// Name: Chimara Okeke
-// Assignment: Minor 4
 // Program Description: "minor4cli.c" accepts two arguments (server and port no.),
 // sends 10 PING messages to the specified server and prints the round trip time (RTT)
 // if messages are recieved. If not, it prints a "timed out" message
