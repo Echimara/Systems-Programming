@@ -1,6 +1,5 @@
 # Language: Bash (Bourne Again SHell)
 #!/bin/bash
-# Name: Chimara Okeke
 # This bash script monitors and reports who logs in to and out of whichever Linux machine the script is run on. Reports are printed every 10 seconds (if any)
 # along with the date and number of logged-in users. A custom handler is present
 # to trap the SIGINT or ctrl+C shortcut once before terminating the script.
